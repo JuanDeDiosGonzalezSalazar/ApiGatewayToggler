@@ -3,15 +3,13 @@
   "name": "ApiGateway Toggler Extension",
   "description": "ApiGateway Toggler Extension",
   "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://console.aws.amazon.com/apigateway/home*"],
+      "js": ["togglerButton.js"]
+    }
+  ],
   "browser_action": {
     "default_icon": "bontu.png"
-  },
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
-  },
-  "permissions": [
-    "activeTab"
-  ]
+  }
 }
