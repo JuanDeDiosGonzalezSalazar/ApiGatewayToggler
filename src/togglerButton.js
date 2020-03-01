@@ -102,7 +102,7 @@ scriptElement.append(`
         
         previousURL = location.href;
 
-        let route = new RegExp(/^.+\/resources(?:|\/.*)$/);
+        let route = new RegExp(/^.+\\/resources(?:|\\/.*)$/);
 
         if (route.test(location.href)) {
             await addButton();
