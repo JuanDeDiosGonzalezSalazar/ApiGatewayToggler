@@ -85,6 +85,8 @@ scriptElement.append(`
         section.append(toggleButton)
         console.log("Toggle button added to section!")
 
+        onclick();
+
         return true;
     }
 
