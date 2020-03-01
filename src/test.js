@@ -1,5 +1,3 @@
-scriptElement = document.createElement('script')
-scriptElement.append(`
 (async () => {
     async function findSectionToAddButton() {
         return new Promise((resolve, reject) => {
@@ -109,5 +107,3 @@ scriptElement.append(`
         }
     })
 })()
-`)
-document.body.append(scriptElement)

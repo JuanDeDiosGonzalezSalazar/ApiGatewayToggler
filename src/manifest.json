@@ -5,8 +5,12 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://console.aws.amazon.com/apigateway/home*"],
-      "js": ["togglerButton.js"]
+      "matches": [
+        "https://console.aws.amazon.com/apigateway/home*"
+      ],
+      "js": [
+        "togglerButton.js"
+      ]
     }
   ],
   "browser_action": {
